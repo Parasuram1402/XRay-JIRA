@@ -1,0 +1,271 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>JIRAIntegration</groupId>
+  <artifactId>Cucumber</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+
+
+  <name>Cucumber</name>
+  <url>http://maven.apache.org</url>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+
+
+
+  <dependencies>
+
+	<!-- https://mvnrepository.com/artifact/com.beust/jcommander -->
+	<dependency>
+	    <groupId>com.beust</groupId>
+	    <artifactId>jcommander</artifactId>
+	    <version>1.72</version>
+	</dependency>
+
+	<!-- https://mvnrepository.com/artifact/bsh/bsh -->
+	<dependency>
+	    <groupId>bsh</groupId>
+	    <artifactId>bsh</artifactId>
+	    <version>2.0b4</version>
+	</dependency>
+
+<!--<dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>-->    
+
+	<!-- https://mvnrepository.com/artifact/info.cukes/cucumber-java -->
+	<dependency>
+	    <groupId>info.cukes</groupId>
+	    <artifactId>cucumber-java</artifactId>
+	    <version>1.2.5</version>
+	    <scope>test</scope>
+	</dependency>
+	<dependency>
+	    <groupId>info.cukes</groupId>
+	    <artifactId>cucumber-core</artifactId>
+	    <version>1.2.5</version>
+	</dependency>	
+
+	<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+	<dependency>
+	    <groupId>org.seleniumhq.selenium</groupId>
+	    <artifactId>selenium-java</artifactId>
+	    <version>3.9.1</version>
+	</dependency>
+
+
+
+	<dependency>
+	    <groupId>junit</groupId>
+	    <artifactId>junit</artifactId>
+	    <version>4.12</version>
+	    <scope>test</scope>
+	</dependency>
+<!--<dependency>
+	    <groupId>info.cukes</groupId>
+	    <artifactId>cucumber-junit</artifactId>
+	    <version>1.2.5</version>
+	    <scope>test</scope>
+	</dependency>-->    
+
+<!-- https://mvnrepository.com/artifact/javax.ws.rs/javax.ws.rs-api -->
+<dependency>
+    <groupId>javax.ws.rs</groupId>
+    <artifactId>javax.ws.rs-api</artifactId>
+    <version>2.1</version>
+</dependency>
+
+
+
+ 	<dependency>
+	    <groupId>info.cukes</groupId>
+	    <artifactId>cucumber-testng</artifactId>
+	    <version>1.2.5</version>
+	    <scope>compile</scope>
+	</dependency>
+	<dependency>
+	    <groupId>org.testng</groupId>
+	    <artifactId>testng</artifactId>
+	    <version>6.10</version>
+	    <scope>test</scope>
+	</dependency>    
+
+
+ 	<!-- https://mvnrepository.com/artifact/org.glassfish.jersey.core/jersey-common -->
+	<dependency>
+	    <groupId>org.glassfish.jersey.core</groupId>
+	    <artifactId>jersey-common</artifactId>
+	    <version>2.26</version>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/org.glassfish.hk2/hk2-api -->
+	<dependency>
+	    <groupId>org.glassfish.hk2</groupId>
+	    <artifactId>hk2-api</artifactId>
+	    <version>2.5.0-b61</version>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/org.glassfish.jersey.bundles.repackaged/jersey-guava -->
+	<dependency>
+	    <groupId>org.glassfish.jersey.bundles.repackaged</groupId>
+	    <artifactId>jersey-guava</artifactId>
+	    <version>2.26-b03</version>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/org.eclipse/swt-win32-win32-x86 -->
+	<dependency>
+	    <groupId>org.eclipse</groupId>
+	    <artifactId>swt-win32-win32-x86</artifactId>
+	    <version>3.5.2</version>
+	</dependency>
+	<dependency>
+	    <groupId>org.jboss.resteasy</groupId>
+	    <artifactId>resteasy-client</artifactId>
+	    <version>3.0.2.Final</version>
+	</dependency>
+
+
+
+
+
+    <dependency>
+        <groupId>com.google.guava</groupId>
+        <artifactId>guava</artifactId>
+        <version>24.0-jre</version>
+    </dependency>
+    <dependency>
+        <groupId>org.codehaus.jettison</groupId>
+        <artifactId>jettison</artifactId>
+        <version>1.0.1</version>
+    </dependency>
+<dependency>
+ <groupId>org.slf4j</groupId>
+ <artifactId>slf4j-jdk14</artifactId>
+ <version>1.7.25</version>
+</dependency>
+    <dependency>
+        <groupId>commons-io</groupId>
+        <artifactId>commons-io</artifactId>
+        <version>2.4</version>
+    </dependency>
+
+<dependency>
+    <groupId>com.atlassian.event</groupId>
+    <artifactId>atlassian-event</artifactId>
+    <version>3.1.5</version>
+</dependency>
+<dependency>
+ <groupId>com.atlassian.fugue</groupId>
+ <artifactId>fugue</artifactId>
+ <version>2.6.1</version>
+ </dependency>
+<dependency>
+    <groupId>com.atlassian.sal</groupId>
+    <artifactId>sal-api</artifactId>
+    <version>3.1.0</version>
+    <scope>provided</scope>
+</dependency>
+
+<dependency>
+<!-- Caused by: java.lang.ClassNotFoundException: org.springframework.beans.factory.DisposableBean -->
+                     <groupId>org.springframework</groupId>
+                     <artifactId>spring-context</artifactId>
+                     <version>3.1.1.RELEASE</version>
+</dependency>
+
+
+<dependency>
+<!-- Caused by: java.lang.ClassNotFoundException: org.apache.http.nio.reactor.IOReactorExceptionHandler -->
+            <groupId>org.apache.httpcomponents</groupId>
+            <artifactId>httpcore-nio</artifactId>
+            <version>4.2.2</version>
+</dependency>
+
+<dependency>
+<!-- Caused by: java.lang.ClassNotFoundException: org.apache.http.impl.client.cache.CachingHttpAsyncClient -->
+            <groupId>org.apache.httpcomponents</groupId>
+            <artifactId>httpasyncclient-cache</artifactId>
+            <version>4.0-beta3-atlassian-1</version>
+</dependency>
+
+<dependency>
+<!-- Caused by: java.lang.ClassNotFoundException: org.apache.http.impl.nio.conn.PoolingClientAsyncConnectionManager -->
+            <groupId>org.apache.httpcomponents</groupId>
+            <artifactId>httpasyncclient</artifactId>
+            <version>4.0-beta3-atlassian-1</version>
+</dependency>
+
+<dependency>
+<!-- Caused by: java.lang.ClassNotFoundException: org.apache.http.client.cache.HttpCacheStorage -->
+      <groupId>org.apache.httpcomponents</groupId>
+      <artifactId>httpclient-cache</artifactId>
+      <version>4.2.1-atlassian-2</version>
+</dependency>
+
+<dependency>
+<!-- Caused by: java.lang.ClassNotFoundException: org.apache.http.conn.routing.HttpRoutePlanner -->
+      <groupId>org.apache.httpcomponents</groupId>
+      <artifactId>httpclient</artifactId>
+      <version>4.2.1-atlassian-2</version>
+</dependency>
+
+<dependency>
+<!-- Caused by: java.lang.ClassNotFoundException: com.atlassian.httpclient.spi.ThreadLocalContextManagers -->
+                <groupId>com.atlassian.httpclient</groupId>
+                <artifactId>atlassian-httpclient-spi</artifactId>
+                <version>0.17.0-m01</version>
+</dependency>
+
+<dependency>
+<!-- Caused by: java.lang.ClassNotFoundException: org.slf4j.LoggerFactory -->
+                <groupId>org.slf4j</groupId>
+                <artifactId>slf4j-api</artifactId>
+                <version>1.5.8</version>
+ </dependency>
+                
+<dependency>
+<!-- Caused by: java.lang.ClassNotFoundException: org.apache.http.entity.mime.content.ContentBody -->
+            <groupId>org.apache.httpcomponents</groupId>
+            <artifactId>httpmime</artifactId>
+            <version>4.1.2</version>
+</dependency>
+<dependency>
+<!-- Caused by: java.lang.ClassNotFoundException: org.joda.time.ReadableInstant -->
+            <groupId>joda-time</groupId>
+            <artifactId>joda-time</artifactId>
+            <version>1.6</version>
+</dependency>
+
+<dependency>
+<!-- Caused by: java.lang.ClassNotFoundException: org.apache.commons.codec.binary.Base64 -->
+	<groupId>commons-codec</groupId>
+	<artifactId>commons-codec</artifactId>
+	<version>1.6</version>
+</dependency>
+  </dependencies>
+
+
+<repositories>
+<repository>
+ <id>atlassian-public</id>
+ <url>https://packages.atlassian.com/maven/repository/public</url>
+ </repository>
+</repositories>
+
+<pluginRepositories>
+    <pluginRepository>
+        <id>atlassian-public</id>
+        <url>https://m2proxy.atlassian.com/repository/public</url>
+        <releases>
+            <enabled>true</enabled>
+            <checksumPolicy>warn</checksumPolicy>
+        </releases>
+        <snapshots>
+            <checksumPolicy>warn</checksumPolicy>
+        </snapshots>
+    </pluginRepository>
+</pluginRepositories>  
+</project>
