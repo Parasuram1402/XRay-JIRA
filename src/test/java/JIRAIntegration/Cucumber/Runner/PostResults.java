@@ -1,37 +1,29 @@
 package JIRAIntegration.Cucumber.Runner;
-//import org.junit.runner.RunWith;
 
 import java.io.BufferedReader;
 import java.io.File;
+import java.io.IOException;
 import java.io.InputStreamReader;
+import java.io.ObjectInputStream;
 import java.io.OutputStream;
 import java.net.HttpURLConnection;
+import java.net.MalformedURLException;
 import java.net.URL;
+import java.security.KeyManagementException;
+import java.security.NoSuchAlgorithmException;
 import java.security.cert.CertificateException;
 import java.security.cert.X509Certificate;
-
 import javax.net.ssl.HostnameVerifier;
 import javax.net.ssl.HttpsURLConnection;
 import javax.net.ssl.SSLContext;
 import javax.net.ssl.SSLSession;
 import javax.net.ssl.TrustManager;
 import javax.net.ssl.X509TrustManager;
-
 import org.apache.commons.io.FileUtils;
-import org.testng.annotations.AfterTest;
 
-import cucumber.api.CucumberOptions;
-//import cucumber.api.junit.Cucumber;
-import cucumber.api.testng.AbstractTestNGCucumberTests;
+public class PostResults {
 
-//@RunWith(Cucumber.class)
-@CucumberOptions(features="features",glue={"JIRAIntegration.Cucumber.StepDefinitions"}, plugin={"pretty","json:report.json"})
-public class TestRunner extends AbstractTestNGCucumberTests{
-
-	
-	@AfterTest
-	public void postJsonResults(){
-		System.out.println("Now again");
+	public static void main(String args[]){
 		System.out.println("Hello");
 		String sUserPassword, sBasicAuth;
 		try {
@@ -102,6 +94,6 @@ public class TestRunner extends AbstractTestNGCucumberTests{
 
 		} catch(Exception e) {
 			
-		}		
+		}
 	}
 }
