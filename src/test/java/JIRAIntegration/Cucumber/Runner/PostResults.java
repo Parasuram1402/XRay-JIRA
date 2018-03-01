@@ -2,15 +2,10 @@ package JIRAIntegration.Cucumber.Runner;
 
 import java.io.BufferedReader;
 import java.io.File;
-import java.io.IOException;
 import java.io.InputStreamReader;
-import java.io.ObjectInputStream;
 import java.io.OutputStream;
 import java.net.HttpURLConnection;
-import java.net.MalformedURLException;
 import java.net.URL;
-import java.security.KeyManagementException;
-import java.security.NoSuchAlgorithmException;
 import java.security.cert.CertificateException;
 import java.security.cert.X509Certificate;
 import javax.net.ssl.HostnameVerifier;
@@ -23,6 +18,7 @@ import org.apache.commons.io.FileUtils;
 
 public class PostResults {
 
+	@SuppressWarnings("deprecation")
 	public static void main(String args[]){
 		System.out.println("Hello");
 		String sUserPassword, sBasicAuth;

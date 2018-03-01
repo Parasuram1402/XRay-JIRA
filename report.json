@@ -12,7 +12,7 @@
         "steps": [
           {
             "result": {
-              "duration": 22890711911,
+              "duration": 9858302932,
               "status": "passed"
             },
             "line": 8,
@@ -24,7 +24,7 @@
           },
           {
             "result": {
-              "duration": 2748117409,
+              "duration": 1766399019,
               "status": "passed"
             },
             "line": 9,
@@ -42,7 +42,7 @@
           },
           {
             "result": {
-              "duration": 490887420,
+              "duration": 2125757510,
               "status": "passed"
             },
             "line": 10,
@@ -56,11 +56,11 @@
         "tags": [
           {
             "line": 6,
-            "name": "@MYXRPRJ-30"
+            "name": "@MYXRPRJ-11"
           },
           {
             "line": 6,
-            "name": "@MYXRPRJ-18"
+            "name": "@MYXRPRJ-19"
           },
           {
             "line": 6,
@@ -68,7 +68,7 @@
           },
           {
             "line": 6,
-            "name": "@MYXRPRJ-15"
+            "name": "@MYXRPRJ-13"
           }
         ]
       }
@@ -81,12 +81,102 @@
     "tags": [
       {
         "line": 1,
-        "name": "@MYXRPRJ-33"
+        "name": "@MYXRPRJ-32"
       },
       {
         "line": 2,
         "name": "@MYXRPRJ-18"
       }
-	]
+    ]
+  },
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 7,
+        "name": "Automated Test Google Search",
+        "description": "",
+        "id": "myepic2;automated-test-google-search",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8861439140,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Google is Open",
+            "match": {
+              "location": "GoogleSample.google_is_Open()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1539189127,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Search for \"Selenium\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Selenium",
+                  "offset": 12
+                }
+              ],
+              "location": "GoogleSample.search_for(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2361604322,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Validate Search Results",
+            "match": {
+              "location": "GoogleSample.validate_Search_Results()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 6,
+            "name": "@MYXRPRJ-11"
+          },
+          {
+            "line": 6,
+            "name": "@MYXRPRJ-19"
+          },
+          {
+            "line": 6,
+            "name": "@MYXRPRJ-12"
+          },
+          {
+            "line": 6,
+            "name": "@MYXRPRJ-13"
+          }
+        ]
+      }
+    ],
+    "name": "MyEpic2",
+    "description": "",
+    "id": "myepic2",
+    "keyword": "Feature",
+    "uri": "1_MYXRPRJ-19.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@MYXRPRJ-26"
+      },
+      {
+        "line": 2,
+        "name": "@MYXRPRJ-18"
+      }
+    ]
   }
 ]

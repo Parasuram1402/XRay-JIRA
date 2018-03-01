@@ -19,6 +19,7 @@ import javax.net.ssl.X509TrustManager;
 
 import org.apache.commons.io.FileUtils;
 import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
 
 import cucumber.api.CucumberOptions;
 //import cucumber.api.junit.Cucumber;
@@ -27,12 +28,16 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
 //@RunWith(Cucumber.class)
 @CucumberOptions(features="features",glue={"JIRAIntegration.Cucumber.StepDefinitions"}, plugin={"pretty","json:report.json"})
 public class TestRunner extends AbstractTestNGCucumberTests{
-
+	@BeforeTest
+	public void initiateReport()
+	{
+		//CucumberJSONFormatter 
+		
+	}
 	
-	@AfterTest
-	public void postJsonResults(){
-		System.out.println("Now again");
-		System.out.println("Hello");
+//	@SuppressWarnings("deprecation")
+//	@AfterTest
+/*	public void postJsonResults(){
 		String sUserPassword, sBasicAuth;
 		try {
 				TrustManager[] trustAllCerts = new TrustManager[] { new X509TrustManager() {
@@ -103,5 +108,5 @@ public class TestRunner extends AbstractTestNGCucumberTests{
 		} catch(Exception e) {
 			
 		}		
-	}
+	}*/
 }
