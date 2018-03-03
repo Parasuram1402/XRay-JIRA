@@ -2,23 +2,34 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="26942" started-at="2018-02-25T13:43:31Z" finished-at="2018-02-25T13:43:58Z">
+  <suite name="Default suite" duration-ms="56453" started-at="2018-03-02T18:41:21Z" finished-at="2018-03-02T18:42:17Z">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:JIRAIntegration.Cucumber.Runner.TestRunner@7085bdee]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:JIRAIntegration.Cucumber.Runner.TestRunner@1ce92674]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Default test" duration-ms="26942" started-at="2018-02-25T13:43:31Z" finished-at="2018-02-25T13:43:58Z">
+    <test name="Default test" duration-ms="56453" started-at="2018-03-02T18:41:21Z" finished-at="2018-03-02T18:42:17Z">
       <class name="JIRAIntegration.Cucumber.Runner.TestRunner">
-        <test-method status="PASS" signature="initiateReport()[pri:0, instance:JIRAIntegration.Cucumber.Runner.TestRunner@7085bdee]" name="initiateReport" is-config="true" duration-ms="10" started-at="2018-02-25T19:13:31Z" finished-at="2018-02-25T19:13:31Z">
+        <test-method status="PASS" signature="initiateReport()[pri:0, instance:JIRAIntegration.Cucumber.Runner.TestRunner@1ce92674]" name="initiateReport" is-config="true" duration-ms="16" started-at="2018-03-03T00:11:21Z" finished-at="2018-03-03T00:11:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initiateReport -->
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:JIRAIntegration.Cucumber.Runner.TestRunner@7085bdee]" name="setUpClass" is-config="true" duration-ms="211" started-at="2018-02-25T19:13:31Z" finished-at="2018-02-25T19:13:31Z">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:JIRAIntegration.Cucumber.Runner.TestRunner@1ce92674]" name="setUpClass" is-config="true" duration-ms="203" started-at="2018-03-03T00:11:21Z" finished-at="2018-03-03T00:11:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:JIRAIntegration.Cucumber.Runner.TestRunner@7085bdee]" name="feature" duration-ms="13787" started-at="2018-02-25T19:13:31Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2018-02-25T19:13:45Z">
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:JIRAIntegration.Cucumber.Runner.TestRunner@1ce92674]" name="feature" duration-ms="16520" started-at="2018-03-03T00:11:21Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2018-03-03T00:11:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MyEpic]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:JIRAIntegration.Cucumber.Runner.TestRunner@1ce92674]" name="feature" duration-ms="36487" started-at="2018-03-03T00:11:38Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2018-03-03T00:12:14Z">
           <params>
             <param index="0">
               <value>
@@ -29,21 +40,14 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:JIRAIntegration.Cucumber.Runner.TestRunner@7085bdee]" name="feature" duration-ms="12780" started-at="2018-02-25T19:13:45Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2018-02-25T19:13:58Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[MyEpic2]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- feature -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:JIRAIntegration.Cucumber.Runner.TestRunner@7085bdee]" name="tearDownClass" is-config="true" duration-ms="55" started-at="2018-02-25T19:13:58Z" finished-at="2018-02-25T19:13:58Z">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:JIRAIntegration.Cucumber.Runner.TestRunner@1ce92674]" name="tearDownClass" is-config="true" duration-ms="47" started-at="2018-03-03T00:12:14Z" finished-at="2018-03-03T00:12:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
+        <test-method status="PASS" signature="postJsonResults()[pri:0, instance:JIRAIntegration.Cucumber.Runner.TestRunner@1ce92674]" name="postJsonResults" is-config="true" duration-ms="3084" started-at="2018-03-03T00:12:14Z" finished-at="2018-03-03T00:12:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postJsonResults -->
       </class> <!-- JIRAIntegration.Cucumber.Runner.TestRunner -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

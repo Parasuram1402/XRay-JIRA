@@ -1,0 +1,166 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 7,
+        "name": "Automated Test Google Search",
+        "description": "",
+        "id": "myepic2;automated-test-google-search",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 15147666609,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Google is Open",
+            "match": {
+              "location": "GoogleSample.google_is_Open()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2139884790,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Search for \"Capgemini\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Capgemini",
+                  "offset": 12
+                }
+              ],
+              "location": "GoogleSample.search_for(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2499227656,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Validate Search Results",
+            "match": {
+              "location": "GoogleSample.validate_Search_Results()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 6,
+            "name": "@MYXRPRJ-11"
+          },
+          {
+            "line": 6,
+            "name": "@MYXRPRJ-19"
+          },
+          {
+            "line": 6,
+            "name": "@MYXRPRJ-12"
+          },
+          {
+            "line": 6,
+            "name": "@MYXRPRJ-13"
+          }
+        ]
+      },
+      {
+        "line": 14,
+        "name": "Automated Test Google Search 2",
+        "description": "",
+        "id": "myepic2;automated-test-google-search-2",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "tags": [
+          {
+            "line": 13,
+            "name": "@MYXRPRJ-30"
+          },
+          {
+            "line": 13,
+            "name": "@MYXRPRJ-19"
+          },
+          {
+            "line": 13,
+            "name": "@MYXRPRJ-12"
+          }
+        ]
+      },
+      {
+        "line": 15,
+        "name": "Automated Test Google Search2",
+        "description": "",
+        "id": "myepic2;automated-test-google-search2",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9209056444,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Google is Open",
+            "match": {
+              "location": "GoogleSample.google_is_Open()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1956787201,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Search for \"Hyderabad\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Hyderabad",
+                  "offset": 12
+                }
+              ],
+              "location": "GoogleSample.search_for(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2135881300,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Validate Search Results",
+            "match": {
+              "location": "GoogleSample.validate_Search_Results()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "MyEpic2",
+    "description": "",
+    "id": "myepic2",
+    "keyword": "Feature",
+    "uri": "Feature1.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@MYXRPRJ-34"
+      },
+      {
+        "line": 2,
+        "name": "@MYXRPRJ-18"
+      }
+    ]
+  }
+]

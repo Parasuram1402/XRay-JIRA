@@ -6,7 +6,9 @@
       <class name="JIRAIntegration.Cucumber.Runner.TestRunner">
         <methods>
           <include name="setUpClass"/>
-          <include name="feature"/>
+          <include name="initiateReport"/>
+          <include name="feature" invocation-numbers="0"/>
+          <include name="postJsonResults"/>
           <include name="tearDownClass"/>
         </methods>
       </class> <!-- JIRAIntegration.Cucumber.Runner.TestRunner -->

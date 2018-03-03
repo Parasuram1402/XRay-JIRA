@@ -1,0 +1,10 @@
+{
+	"line":3,
+	"elements":[{"line":6,"name":"Search Virat","description":"","id":"myepic;search-virat","type":"scenario","keyword":"Scenario","steps":[{"result":{"duration":12239900827,"status":"passed"},"line":7,"name":"Google is Open","match":{"location":"GoogleSample.google_is_Open()"},"keyword":"Given "},{"result":{"duration":2142040170,"status":"passed"},"line":8,"name":"Search for \"Capgemini\"","match":{"arguments":[{"val":"Capgemini","offset":12}],"location":"GoogleSample.search_for(String)"},"keyword":"When "},{"result":{"duration":2110490798,"status":"passed"},"line":9,"name":"Validate Search Results","match":{"location":"GoogleSample.validate_Search_Results()"},"keyword":"Then "}],"tags":[{"line":5,"name":"@MYXRPRJ-36"}]}],
+	"name":"MyEpic",
+	"description":"",
+	"id":"myepic",
+	"keyword":"Feature",
+	"uri":"1_MYXRPRJ-8.feature",
+	"tags":[{"line":1,"name":"@MYXRPRJ-35"},{"line":2,"name":"@MYXRPRJ-8"}]
+}

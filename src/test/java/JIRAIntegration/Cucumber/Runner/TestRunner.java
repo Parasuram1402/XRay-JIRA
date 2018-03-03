@@ -35,28 +35,28 @@ public class TestRunner extends AbstractTestNGCucumberTests{
 		
 	}
 	
-//	@SuppressWarnings("deprecation")
-//	@AfterTest
-/*	public void postJsonResults(){
+	@SuppressWarnings("deprecation")
+	@AfterTest
+	public void postJsonResults(){
 		String sUserPassword, sBasicAuth;
 		try {
 				TrustManager[] trustAllCerts = new TrustManager[] { new X509TrustManager() {
 
-					@Override
+	//				@Override
 					public void checkClientTrusted(X509Certificate[] chain, String authType)
 							throws CertificateException {
 						// TODO Auto-generated method stub
 						
 					}
 
-					@Override
+	//				@Override
 					public void checkServerTrusted(X509Certificate[] chain, String authType)
 							throws CertificateException {
 						// TODO Auto-generated method stub
 						
 					}
 
-					@Override
+	//				@Override
 					public X509Certificate[] getAcceptedIssuers() {
 						// TODO Auto-generated method stub
 						return null;
@@ -108,5 +108,5 @@ public class TestRunner extends AbstractTestNGCucumberTests{
 		} catch(Exception e) {
 			
 		}		
-	}*/
+	}
 }

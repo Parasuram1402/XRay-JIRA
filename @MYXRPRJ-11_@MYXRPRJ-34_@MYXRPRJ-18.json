@@ -1,0 +1,10 @@
+{
+	"line":3,
+	"elements":[{"line":7,"name":"Automated Test Google Search","description":"","id":"myepic2;automated-test-google-search","type":"scenario","keyword":"Scenario","steps":[{"result":{"duration":12318836480,"status":"passed"},"line":8,"name":"Google is Open","match":{"location":"GoogleSample.google_is_Open()"},"keyword":"Given "},{"result":{"duration":2802488308,"status":"passed"},"line":9,"name":"Search for \"Capgemini\"","match":{"arguments":[{"val":"Capgemini","offset":12}],"location":"GoogleSample.search_for(String)"},"keyword":"When "},{"result":{"duration":2128980236,"status":"passed"},"line":10,"name":"Validate Search Results","match":{"location":"GoogleSample.validate_Search_Results()"},"keyword":"Then "}],"tags":[{"line":6,"name":"@MYXRPRJ-11"},{"line":6,"name":"@MYXRPRJ-19"},{"line":6,"name":"@MYXRPRJ-12"},{"line":6,"name":"@MYXRPRJ-13"}]}],
+	"name":"MyEpic2",
+	"description":"",
+	"id":"myepic2",
+	"keyword":"Feature",
+	"uri":"Feature1.feature",
+	"tags":[{"line":1,"name":"@MYXRPRJ-34"},{"line":2,"name":"@MYXRPRJ-18"}]
+}
